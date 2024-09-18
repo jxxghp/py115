@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "py115"
+name = "py115j"
 authors = [
     {name = "deadblue", email = "public@dead.blue"}
 ]
@@ -27,7 +27,7 @@ requires-python = ">=3.9"
 dynamic = ["dependencies", "version"]
 
 [project.urls]
-Homepage = "https://github.com/deadblue/py115"
+Homepage = "https://github.com/jxxghp/py115"
 Documentation = "https://py115.readthedocs.io/en/latest/"
 
 [tool.setuptools]

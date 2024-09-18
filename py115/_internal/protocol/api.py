@@ -10,7 +10,7 @@ class ApiException(Exception):
     def __init__(self, code: int, *args: object) -> None:
         super().__init__(*args)
         self._code = code
-    
+
     @property
     def error_code(self) -> int:
         return self._code
@@ -25,6 +25,7 @@ class RetryException(Exception):
 _ERROR_CODE_FIELDS = [
     'errcode', 'errNo', 'errno', 'code'
 ]
+
 
 def find_error_code(result: dict) -> int:
     if result.get('state', False):
