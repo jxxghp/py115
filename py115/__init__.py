@@ -18,7 +18,7 @@ for file in storage.list():
 
 """
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 
 from typing import Any
 
