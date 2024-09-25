@@ -8,7 +8,7 @@ class GetVersionApi(ApiSpec):
         super().__init__('https://appversion.115.com/1/web/1.0/api/chrome')
 
     def parse_result(self, result: dict) -> str:
-        return result['data']['linux_115']['version_code']
+        return result['data']['win']['version_code']
 
 
 class GetTypeApi(ApiSpec):
